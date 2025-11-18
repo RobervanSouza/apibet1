@@ -12,3 +12,9 @@ app.register( cors, {
 app.get('/', () =>{
     return 'ola mundo'
 })
+
+app.listen({
+    port: 3333
+}).then(() =>{
+    console.log('testet')
+})
