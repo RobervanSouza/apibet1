@@ -1,0 +1,13 @@
+# Ignorar node_modules e builds
+node_modules/
+dist/
+
+# Ignorar configs sensíveis
+.env
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# NÃO ignorar nada do projeto
+# (removido o "*" que bloqueava tudo)
