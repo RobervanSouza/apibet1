@@ -58,6 +58,7 @@ app.get("/api/jogo/health", async (req, res) => {
 app.use("/api/jogo", gameRouter);
 
 // start server
+// atualização
 const port = Number(process.env.PORT) || 3000;
 app.listen(port, () =>
   console.log(`Servidor rodando em http://localhost:${port}`)
